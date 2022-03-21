@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contactUsPageStyle.css">
+    <script src="../JS/contactUsJS.js"></script>
+    <title>Fruggies Contact Us Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navigationBar">
+            <div id="navigationBar1">
+                <div>
+                    <a href="./homePage.html">
+                        <img src="./../Assets/Fruggies_Logo.png" alt="Fruggies Logo" id="headerLogo">
+                    </a>
+                </div>
+                <div id="responsiveMenu1" class="navigationMenus hideResponsive">
+                    <a href="./homePage.html" class="navigationLinks">
+                        Home
+                    </a>
+                </div>
+                <div id="responsiveMenu2" class="navigationMenus hideResponsive">
+                    <a href="./aboutUsPage.html" class="navigationLinks">
+                        About Us
+                    </a>
+                </div>
+                <div id="responsiveMenu3" class="navigationMenus hideResponsive">
+                    <a href="./contactUsPage.html" class="navigationLinks">
+                        Contact Us
+                    </a>
+                </div>
+                <div id="responsiveMenu4" class="hideResponsive menu4">
+                    <a href="./signInPage.html" class="">
+                        <button id="headerSignButton">
+                            Sign In
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div id="navigationBar2">
+                <a href="./signInPage.html" class="">
+                    <button id="headerSignButton">
+                        Sign In
+                    </button>
+                </a>
+            </div>
+            <div id="navigationBar3">
+                <img src="../Assets/dropdown_menu.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="contactUs">
+            <div id="contactUsText">
+                <h1>Need help?</h1>
+                <p>You can contact us by filling the form</p>
+                <img src="../Assets/need_help_icon.png" alt="Help Image">
+            </div>
+            <div id="contactUsForm">
+                <form action="" method="post" id="contactUsInnerForm">
+                    <div id="formName">
+                        <label for="formInputName">
+                            <p>Name</p>
+                        </label>
+                        <input type="text" class="contactInput" id="formInputName" autofocus placeholder="Write your name here">
+                        <div class="formErrorMsg" id="formNameErrorMsg">
+
+                        </div>
+                    </div>
+                    <div id="formEmail">
+                        <label for="formInputEmail">
+                            <p>Email</p>
+                        </label>
+                        <input type="text" class="contactInput" id="formInputEmail" placeholder="Write your Email here">
+                        <div class="formErrorMsg" id="formEmailErrorMsg">
+                            
+                        </div>
+                    </div>
+                    <div id="formMessage">
+                        <label for="formInputMessage">
+                            <p>Message</p>
+                        </label>
+                        <textarea class="contactInput" id="formInputMessage" cols="30" rows="10" placeholder="Write your question here"></textarea>
+                        <div class="formErrorMsg" id="formMessageErrorMsg">
+                            
+                        </div>
+                    </div>
+                    <div id="formButton">
+                        <input type="submit" value="Submit" id="submitForm">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="contactInfo">
+            <div id="fruggiesPhone">
+                <img src="../Assets/fruggies_phone.png" alt="Phone Icon">
+                <br>
+                <p class="contactInfoTitle">Call Fruggies</p>
+                <br>
+                <p>+628123456789</p>
+            </div>
+            <div id="fruggiesEmail">
+                <img src="../Assets/fruggies_email.png" alt="Email Icon">
+                <br>
+                <p class="contactInfoTitle">Email Fruggies</p>
+                <br>
+                <p>support@fruggies.com</p>
+            </div>
+            <div id="fruggiesAddress">
+                <img src="../Assets/fruggies_address.png" alt="Address Icon">
+                <br>
+                <p class="contactInfoTitle">Visit Fruggies</p>
+                <br>
+                <p>Jl. Bundar Sate, Putat Gede, Kec. Sukomanung, Kota SBY, Jawa 60111</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="leftFooter">
+            <div id="leftFooter1">
+                <a href="./homePage.html">
+                    <img src="./../Assets/Fruggies_Logo.png" alt="Fruggies Logo" id="footerLogo">
+                </a>
+            </div>
+            <hr id="leftFooterLine">
+            <div id="leftFooter2">
+                © 2022 Fruggies, Inc. Fruggies and any associated logos are trademarks, service marks, and/or registered trademarks of Fruggies, Inc.
+            </div>
+        </div>
+        <div id="rightFooter">
+            <div id="rightFooter1">
+                <div>
+                    <ul class="footerList">
+                        <li>Contact Us</li>
+                        <ul>
+                            <li>+628123456789</li>
+                            <li>support@fruggies.com</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footerList">
+                        <li>Visit Us</li>
+                        <ul>
+                            <li>Jl. Bundar Sate, Putat Gede, Kec. Sukomanung, Kota SBY, Jawa 60111</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightFooter2">
+                Follow us on social media
+                <div id="rightFooterSocialMedia">
+                    <a href="https://instagram.com" class="socialMediaLogo">
+                        <img src="../Assets/instagram_icon.png" alt="Instagram Logo">
+                        <p>Instagram</p>
+                    </a>
+                    <a href="https://twitter.com" class="socialMediaLogo">
+                        <img src="../Assets/twitter_icon.png" alt="Twitter Logo">
+                        <p>Twitter</p>
+                    </a>
+                    <a href="https://facebook.com" class="socialMediaLogo">
+                        <img src="../Assets/facebook_icon.png" alt="Facebook Logo">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
